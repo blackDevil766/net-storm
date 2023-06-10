@@ -1,16 +1,15 @@
-// import CardInfo from "../../midSection/data/CardInfo";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Pagination } from "swiper";
-// import 'swiper/modules/free-mode/free-mode.min.css';
-// import 'swiper/modules/thumbs/thumbs.min.css';
+import CardInfo from "../../midSection/data/CardInfo";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+import 'swiper/swiper.min.css'
+
 
 export default function Auctions() {
   return (
     <>
-    <h1>live</h1>
-      {/* <Swiper
+      <Swiper
         modules={[Pagination]}
-        spaceBetween={40}
+        spaceBetween={0}
         slidesPerView={4}
         pagination={{ clickable: true }}
         // loop={true}
@@ -79,7 +78,7 @@ export default function Auctions() {
             img="https://netstrom-angular.theme-land.com/assets/img/auction_7.jpg"
           />
         </SwiperSlide>
-      </Swiper> */}
+      </Swiper>
     </>
   );
 }

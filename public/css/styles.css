@@ -106,11 +106,10 @@
             .startMidSection #view-all {
                 position: relative;
                 cursor: pointer;
-                width: 91%;
+                width: 90rem;
                 display: flex;
-                justify-content: center;
+                justify-content: space-between;
                 margin: 0 auto;
-                gap: 950px;
                 align-items: center;
                 z-index: 3;
             }
@@ -744,6 +743,7 @@
                 /* gap: 907px; */
                 align-items: center;
                 z-index: 3;
+                margin: 50px 0;
             }
             
             .liveText {
@@ -854,6 +854,7 @@
                 /* margin-left: 32px; */
                 margin-left: 0px;
                 padding: 20px;
+                width: 20rem !important;
                 transition-duration: 0.5s;
                 transition-property: transform;
             }
@@ -1315,8 +1316,14 @@
             object-fit: cover;
         } */
             
-            .explore4-carousel #cards {
-                width: 90% !important;
+            /* .explore4-carousel #cards {
+                width: 70% !important;
+            } */
+            .swiper-container-pointer-events{
+                width: 75%;
+            }
+            .swiper-container-pointer-events{
+                width: 91rem;
             }
             
             .swiper-slide {
@@ -2346,7 +2353,7 @@
                     width: 65% !important;
                 }
                 .popularCardsContiner {
-                    width: 59%;
+                    width: 65%;
                 }
             }
             
