@@ -2,11 +2,19 @@ import CardInfo from "../../midSection/data/CardInfo";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import 'swiper/swiper.min.css'
-
+import { useState } from "react";
 
 export default function Auctions() {
+  
+    // const [change, setChange] = useState("4")
+    // // const w = window.innerWidth;
+    // if (window.innerWidth > 600) {
+    //     setChange()
+    // }
+
   return (
     <>
+
       <Swiper
         modules={[Pagination]}
         spaceBetween={0}

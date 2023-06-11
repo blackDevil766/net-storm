@@ -854,7 +854,6 @@
                 /* margin-left: 32px; */
                 margin-left: 0px;
                 padding: 20px;
-                width: 20rem !important;
                 transition-duration: 0.5s;
                 transition-property: transform;
             }
@@ -2419,7 +2418,7 @@
                 }
                 .explore4-carousel #cards {
                     margin-top: 29px;
-                    width: 77% !important;
+                    /* width: 77% !important; */
                     /* width: min-content !important; */
                 }
                 .swiper-backface-hidden .swiper-slide {
